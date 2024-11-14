@@ -67,3 +67,4 @@ Axios Documentation: https://axios-http.com/
 React Router: https://reactrouter.com/
 
 Bootstrap: https://getbootstrap.com/
+well coded and designed by love and passion
