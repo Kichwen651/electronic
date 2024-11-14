@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+## Week 2 Group Project: Electronics Store App
+14/11/2024
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+By Victor Kichwen and James Kimani
+## Description
+This application is an electronics store app where users can browse through various electronic products available in our store. Users can interact with the app to view available items, search for specific products, add new items to the store's inventory, and mark products as "out of stock" when they're no longer available.
 
-## Available Scripts
+## Setup
+To get the application up and running, follow these steps:
 
-In the project directory, you can run:
+//Clone the Git Repository
 
-### `npm start`
+//Navigate to the Project Directory
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+//Open your terminal and navigate to the directory where the repository has been cloned. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+//Install Dependencies
 
-### `npm test`
+//Install the necessary packages :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+(a)npm install -g json-server
 
-### `npm run build`
+(b)Run the json-server :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+json-server --watch db.json --port 5000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Endpoints || Live Server
+You can view the live version of the app here:https://quiet-starburst-95a85f.netlify.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Core Deliverables
+The user can:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.View All Products on App Load
+When the app starts, users can see a list of all available electronic products in the store, including product name, price, and availability.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.Add New Product to Inventory
+Users can add a new electronic item to the store by submitting a product form, including details like the product name, description, price, and stock status.
 
-## Learn More
+3.Add Product to Cart
+Users can add any product to their shopping cart by clicking an "Add to Cart" button next to the product. This allows users to keep track of the items they wish to purchase.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.Remove Product from Cart
+Users can remove products from their shopping cart by clicking a "Remove from Cart" button. This updates the cart in real time, ensuring users can modify their selections before checking out.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Known Bugs
+Currently, the application works without any known issues. If you encounter any bugs or have suggestions for improvements, please feel free to reach out.
 
-### Code Splitting
+Technologies Used
+ React, HTML, CSS, bootstrap 
+Version Control: Git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Support and Contact Details
+For support or questions, please contact:
 
-### Analyzing the Bundle Size
+Email: vkipchirchir582@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Email:jameskim092t@gmail.com
 
-### Making a Progressive Web App
+## Acknowledgements
+React Documentation: https://reactjs.org/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Axios Documentation: https://axios-http.com/
 
-### Advanced Configuration
+React Router: https://reactrouter.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bootstrap: https://getbootstrap.com/
