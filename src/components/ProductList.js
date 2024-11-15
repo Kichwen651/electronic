@@ -9,7 +9,7 @@ const ProductList = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('https://electronic-dhn8.onrender.com/products'); // Fetch products from the API
+                const response = await axios.get('https://electronic-1-7lq1.onrender.com/products'); // Fetch products from the API
                 setProducts(response.data); // Set the products state with the fetched data
             } catch (error) {
                 console.error("Error fetching products:", error); // Log any errors that occur during fetching
