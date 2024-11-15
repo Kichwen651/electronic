@@ -8,7 +8,7 @@ const ProductDetails = () => {
 
     useEffect(() => {
         const fetchProduct = async () => {
-            const response = await axios.get(`http://localhost:5000/products/${id}`);
+            const response = await axios.get(`https://electronic-dhn8.onrender.com/products/${id}`);
             setProduct(response.data);
         };
         fetchProduct();
